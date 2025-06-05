@@ -1,0 +1,12 @@
+alerts:
+  email:
+    server: localhost
+    from: siem@example.com
+    to: admin@example.com
+  slack:
+    webhook: https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+  file:
+    path: logs/alerts.log
+correlation:
+  brute_force_threshold: 5
+  port_scan_threshold: 10
